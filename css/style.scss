@@ -54,6 +54,13 @@
       font-size: 20px;
     }
   }
+
+  /* Sidebar image */
+  .sidebar img {
+    border-radius: 50%;
+    height: 10rem;
+    width: 10rem;
+  }
   
   /* Sidebar links */
   .sidebar a {
@@ -121,6 +128,8 @@
       max-width: 38rem;
       margin-left: 16rem;
       margin-right: 2rem;
+      padding-top: 3rem;
+      padding-bottom: 3rem;
       padding-right: 1rem;
       padding-left: 1rem;
     }
@@ -130,6 +139,8 @@
     .content {
       margin-left: 16rem;
       margin-right: 2rem;
+      padding-top: 3rem;
+      padding-bottom: 3rem;
       padding-right: 2rem;
       padding-left: 2rem;
     }
