@@ -1,8 +1,10 @@
 ---
 layout: page
-title: Dr. rer. nat. Zuzana Hofmanová
+title: Bio
 ---
 
-**[CV](files/cv.pdf)**
+#Dr. rer. nat. Zuzana Hofmanová
+
+**[Curriculum Vitae](files/cv.pdf)**
 
 Text

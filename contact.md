@@ -12,7 +12,7 @@ title: Contact
 
 [**Research Gate**](https://www.researchgate.net/profile/Zuzana_Hofmanova)
 
-[**Daniel Wegmann Research Group**](https://twitter.com/dewawer)
+[**Daniel Wegmann Research Group**](http://www.unifr.ch/biology/research/wegmann/)
 
 
 
