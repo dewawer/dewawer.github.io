@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Zuzana Hofmanová
+title: Dr. rer. nat. Zuzana Hofmanová
 ---
 
 **[CV](files/cv.pdf)**

@@ -49,7 +49,7 @@
       top: 0;
       left: 0;
       bottom: 0;
-      width: 14rem;
+      width: 12rem;
       text-align: left;
       font-size: 20px;
     }
@@ -58,7 +58,8 @@
   /* Sidebar image */
   .sidebar img {
     border-radius: 50%;
-    height: 10rem;
+    border: 0;
+    height: 12.5rem;
     width: 10rem;
   }
   
@@ -117,8 +118,8 @@
    */
   
   .content {
-    padding-top:    2rem;
-    padding-bottom: 2rem;
+    padding-top:    1rem;
+    padding-bottom: 1rem;
     padding-right:  1rem;
     padding-left:   1rem;
   }
@@ -126,10 +127,10 @@
   @media (min-width: 48rem) {
     .content {
       max-width: 38rem;
-      margin-left: 16rem;
+      margin-left: 14rem;
       margin-right: 2rem;
-      padding-top: 3rem;
-      padding-bottom: 3rem;
+      padding-top: 2rem;
+      padding-bottom: 2rem;
       padding-right: 1rem;
       padding-left: 1rem;
     }
@@ -137,10 +138,10 @@
   
   @media (min-width: 64rem) {
     .content {
-      margin-left: 16rem;
+      margin-left: 14rem;
       margin-right: 2rem;
-      padding-top: 3rem;
-      padding-bottom: 3rem;
+      padding-top: 2rem;
+      padding-bottom: 2rem;
       padding-right: 2rem;
       padding-left: 2rem;
     }
