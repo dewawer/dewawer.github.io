@@ -17,7 +17,7 @@
     text-align: center;
     padding: 2rem 1rem;
     color: rgba(255,255,255,.5);
-    background-color: #303059; /* this edits background color of sidebar */
+    background-color: #303059;
   }
   @media (min-width: 48rem) {
     .sidebar {
@@ -27,24 +27,24 @@
       bottom: 0;
       width: 18rem;
       text-align: left;
-      font-size: 20px; /* this changes back the sidebar font size, overriding the above edit */
+      font-size: 20px;
     }
   }
   
   /* Sidebar links */
   .sidebar a {
     color: #fff;
-    /*font-family: "Helvetica Neue", sans-serif; /* I edited this, don't think this line here affects anything */ */
+    /*font-family: "Helvetica Neue", sans-serif; */
   }
   
   /* About section */
   .sidebar-about h1 {
-    text-align: center; /* remove this line to left-align text */
+    text-align: center;
     color: #fff;
     margin-top: 0;
     /*font-family: "Abril Fatface", serif;*/
-    font-family: "Garamond", serif; /* THIS ONE CHANGES THE MAIN TITLE FONT */
-    font-size: 3.25rem; /* size of main title font */
+    font-family: "Garamond", serif;
+    font-size: 3.25rem; 
   }
   
   /* Sidebar nav */
@@ -94,13 +94,13 @@
     .content {
       max-width: 38rem;
       margin-left: 20rem;
-      margin-right: 2rem; /* orig. is 2 */
+      margin-right: 2rem;
     }
   }
   
   @media (min-width: 64rem) {
     .content {
       margin-left: 22rem;
-      margin-right: 4rem; /* orig. is 4, this seems to be the right side margin? */
+      margin-right: 4rem;
     }
   }
