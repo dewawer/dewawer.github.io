@@ -1,9 +1,9 @@
 ---
-layout: page
+layout: default
 title: Bio
 ---
 
-#Dr. rer. nat. Zuzana Hofmanová
+# Zuzana Hofmanová
 
 **[Curriculum Vitae](files/cv.pdf)**
 

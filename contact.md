@@ -6,7 +6,11 @@ title: Contact
 
 **Twitter** [dewawer](https://twitter.com/dewawer)
 
-**Email**   [zuzana.hofmanova{at}unifr.ch](mailto:zuzana.hofmanova@unifr.ch)
+**Email**   <script><!--
+var name = "zuzana.hofmanova";
+var domain = "unifr.ch";
+document.write('<a href=\"mailto:' + name + '@' + domain + '\">' + name + '@' + domain + '</a>');
+--></script>
 
 [**Google Scholar**](https://scholar.google.com/citations?user=LAftoAQAAAAJ&hl=en)
 
