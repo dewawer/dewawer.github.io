@@ -59,8 +59,8 @@
   .sidebar img {
     border-radius: 50%;
     border: 0;
-    height: 6.25rem;
-    width: 5rem;
+    height: 5rem;
+    width: 4rem;
   }
 
   @media (min-width: 15rem) {
@@ -117,8 +117,8 @@
   
   @media (min-width: 48rem) {
     .content {
+      position: absolute;
       margin-left: 14rem;
-      margin-right: 2rem;
       padding-top: 2rem;
       padding-bottom: 2rem;
       padding-right: 1rem;
@@ -130,7 +130,6 @@
     .content {
       max-width: 38rem;  
       margin-left: 14rem;
-      margin-right: 2rem;
       padding-top: 2rem;
       padding-bottom: 2rem;
       padding-right: 2rem;
@@ -142,32 +141,24 @@
    *
    */
   
-  .twitter-timeline {
-    display: none;
+  .twitter {
+    min-width: 6rem;
   }
   
   @media (min-width: 48rem) {
-    .twitter-timeline {
-      display: inline;
-      margin-left: 72rem;
-      margin-right: 2rem;
-      padding-top: 2rem;
-      padding-bottom: 2rem;
-      padding-right: 1rem;
-      padding-left: 1rem;
+    .twitter {
+      position: sticky;
+      right: 0px;
+      margin-left: 56rem;
+      margin-top: 2rem;
+      margin-bottom: 2rem;
     }
   }
   
   @media (min-width: 64rem) {
-    .twitter-timeline {
-      display: block;
-      width: 250;
-      height: 250;
-      margin-left: 72rem;
-      margin-right: 2rem;
-      padding-top: 2rem;
-      padding-bottom: 2rem;
-      padding-right: 2rem;
-      padding-left: 2rem;
+    .twitter {
+      margin-left: 56rem;
+      margin-top: 2rem;
+      margin-bottom: 2rem;
     }
   }
