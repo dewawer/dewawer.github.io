@@ -100,9 +100,35 @@
   .sidebar-nav-item.active {
     font-weight: bold;
   }
-  
-  
+  ¨
   /* Container
+   *
+   * Main content + twitter timeline
+   */
+  
+  .container {
+    padding: 0rem;
+  }
+  
+  @media (min-width: 48rem) {
+    .container {
+      position: absolute;
+      top: 0px;
+      margin-left: 14rem;
+      margin-top: 2rem;
+      margin-right: 14rem;
+    }
+  }
+  
+  @media (min-width: 64rem) {
+    .container {
+      margin-left: 14rem;
+      margin-top: 2rem;
+      margin-right: 14rem;
+    }
+  }
+  
+  /* Content
    *
    * Align the contents of the site above the proper threshold with some margin-fu
    * with a 25%-wide `.sidebar`.
@@ -114,24 +140,20 @@
   
   @media (min-width: 48rem) {
     .content {
-      position: absolute;
-      top: 0px;
-      padding: 1rem;
-      margin-left: 14rem;
-      margin-top: 1rem;
-      margin-right: 14rem;
-      margin-bottom: 1rem;
+      padding-left: 1rem;
+      padding-top: 0rem;
+      padding-right: 1rem;
+      padding-bottom: 0rem;
     }
   }
   
   @media (min-width: 64rem) {
     .content {
       max-width: 38rem;  
-      padding: 2rem;
-      margin-left: 14rem;
-      margin-top: 0rem;
-      margin-right: 14rem;
-      margin-bottom: 0rem;
+      padding-left: 2rem;
+      padding-top: 0rem;
+      padding-right: 2rem;
+      padding-bottom: 0rem;
     }
   }
 
@@ -141,8 +163,7 @@
   
   @media (min-width: 48rem) {
     .twitter {
-      margin-left: 56rem;
-      margin-top: 3rem;
-      width: 14rem;
+      position: absolute;
+      right: -14rem;
     }
   }
