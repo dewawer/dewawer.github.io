@@ -7,7 +7,7 @@ Veeramah KR, Rott A, Groß M, van Dorp L, López S, Kirsanow K, Sell C, Blöcher
 D, Link V, **Hofmanová Z** et al. (2018) Population genomic analysis of elongated skulls reveals
 extensive female-biased immigration in Early Medieval Bavaria. PNAS in press.
 
-Unterlander M, Palstra F, Lazaridis I, Pilipenko A, **Hofmanová Z** et al. (2017) Ancestry and
+Unterländer M, Palstra F, Lazaridis I, Pilipenko A, **Hofmanová Z** et al. (2017) Ancestry and
 demography and descendants of Iron Age nomads of the Eurasian Steppe. Nature Commun 8:14615.
 
 Broushaki F, Thomas MG, Link V, Lopez S, van Dorp L, Kirsanow K, **Hofmanová Z** et al. (2016)

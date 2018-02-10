@@ -111,13 +111,13 @@ img.content {
     filter: opacity(80%);
 }
 
-img.bottom {
-    position: static;
-    width: 640px;
-}
-
 @media screen and (max-width: 660px) {
     img.content {
         position: static;
     }
+}
+
+img.bottom {
+    position: absolute;
+    width: 640px;
 }
