@@ -1,0 +1,30 @@
+---
+---
+
+/* Add Sass variables here */
+
+@import "jekyll-theme-slate";
+
+/* Add style here */
+
+
+/*
+ * Header
+ *
+ * Flexible banner for housing site and page name and site pages links.
+ */
+  
+  /* Header links */
+  .header-nav {
+    list-style: none;
+  }
+  .header-nav-item {
+    display: block;
+  }
+  a.header-nav-item:hover,
+  a.header-nav-item:focus {
+    text-decoration: underline;
+  }
+  .header-nav-item.active {
+    font-weight: bold;
+  }
