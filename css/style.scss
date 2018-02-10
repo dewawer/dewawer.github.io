@@ -49,6 +49,7 @@ body {
 .header-nav-item {
     display: inline;
     margin-right: 10px;
+    font-size: 20px;
 }
 a.header-nav-item:hover,
 a.header-nav-item:focus {
@@ -56,6 +57,12 @@ a.header-nav-item:focus {
 }
 .header-nav-item.active {
     font-weight: bold;
+}
+
+@media screen and (max-width: 480px) {
+    .header-nav-item {
+        font-size: 16px;
+    }
 }
 
 @media screen and (max-width: 320px) {
@@ -100,8 +107,13 @@ img.content {
     margin: 0px;
     padding: 0px;
     width: 380px;
-    -webkit-filter: opacity(75%);
-    filter: opacity(75%);
+    -webkit-filter: opacity(80%);
+    filter: opacity(80%);
+}
+
+img.bottom {
+    position: static;
+    width: 640px;
 }
 
 @media screen and (max-width: 660px) {
