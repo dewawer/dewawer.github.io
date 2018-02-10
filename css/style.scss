@@ -17,17 +17,10 @@ body {
     background: #f2f2f2;
 }
 
-img.content {
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    -webkit-filter: opacity(50%);
-    filter: opacity(50%);
-}
-
 .inner {
     padding: 30px 10px 20px 10px;
     min-width: 0px;
+    z-index: 1;
 }
 
 @media screen and (max-width: 480px) {
@@ -46,12 +39,10 @@ img.content {
 .header-title {
     padding: 0px;
     list-style: none;
-    margin: 30px 0px 30px 0px;
 }
 
 .header-nav {
     padding: 0px;
-    margin: 30px 0px 30px 0px;
     list-style: none;
 }
 
@@ -101,12 +92,20 @@ img.header {
 }
 
 img.content {
+    position: absolute;
+    top: 30px;
+    right: 10px;
     border: 0px;
     margin: 0px;
     padding: 0px;
+    width: 380px;
+    -webkit-filter: opacity(75%);
+    filter: opacity(75%);
 }
 
-img.content:hover {
-    -webkit-filter: sepia(100%);
-    filter: sepia(100%);
+@media screen and (max-width: 480px) {
+    .img.content {
+        position: static;
+        top: 0px;
+    }
 }

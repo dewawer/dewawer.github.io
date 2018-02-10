@@ -16,7 +16,7 @@ document.write('<a href=\"mailto:' + name + '@' + domain + '\">' + name + '@' + 
 
 [**Research Gate**](https://www.researchgate.net/profile/Zuzana_Hofmanova)
 
-[**Daniel Wegmann Research Group**](http://www.unifr.ch/biology/research/wegmann/)
+[**University of Fribourg**](http://www.unifr.ch/biology/research/wegmann/wegmanngroup)
 
 
 
