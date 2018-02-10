@@ -1,9 +1,7 @@
 ---
-layout: default
+layout: page
 title: Bio
 ---
-
-# Zuzana Hofmanová
 
 **[Curriculum Vitae](files/cv.pdf)**
 
