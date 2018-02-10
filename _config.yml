@@ -1,4 +1,5 @@
-title: Zuzana Hofmanová
-description: Personal website of Dr. rer. nat. Zuzana Hofmanová, Postdoctoral Researcher at University of Fribourg, Department of Biology.
+title: Slate theme
+description: Slate is a theme for GitHub Pages.
+show_downloads: true
 google_analytics:
 theme: jekyll-theme-slate
