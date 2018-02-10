@@ -103,9 +103,8 @@ img.content {
     filter: opacity(75%);
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 660px) {
     .img.content {
         position: static;
-        top: 0px;
     }
 }
