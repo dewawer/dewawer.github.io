@@ -291,11 +291,7 @@ Full-Width Styles
   background: linear-gradient(top, #373737, #212121);
 }
 
-#header_wrap .inner {
-  padding: 50px 10px 30px 10px;
-}
-
-#project_title {
+.header-title {
   margin: 0;
   color: #fff;
   font-size: 42px;
@@ -356,10 +352,6 @@ Full-Width Styles
   border-bottom: 1px solid #111;
 }
 
-#main_content {
-  padding-top: 40px;
-}
-
 #footer_wrap {
   background: #212121;
 }
@@ -390,7 +382,7 @@ Small Device Styles
     max-width: 480px;
   }
 
-  #project_title {
+  .header-title {
   font-size: 32px;
   }
 
@@ -438,7 +430,7 @@ Small Device Styles
     max-width: 320px;
   }
 
-  #project_title {
+  .header-title {
   font-size: 28px;
   }
 
