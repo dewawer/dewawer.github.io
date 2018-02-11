@@ -14,15 +14,11 @@
  */
 
 html {
-    //overflow-y: scroll;
+    overflow-y: scroll;
 }
 
 body {
     background: #f2f2f2;
-}
-
-.outer {
-    padding-left: calc(100vw - 100%);
 }
 
 .inner {
@@ -110,6 +106,7 @@ img.header {
 img.content {
     position: absolute;
     top: 0px;
+    left: 0px;
     z-index: -1;
     border: 0px;
     margin: 0px;
