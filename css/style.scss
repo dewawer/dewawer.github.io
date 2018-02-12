@@ -103,6 +103,20 @@ img.header {
     border: 0px;
 }
 
+div.page {
+    max-width: 320px;
+}
+
+@media screen and (max-width: 660px) {
+    div.page {
+        max-width: none;
+    }
+}
+
+div.publications {
+    max-width: none;
+}
+
 img.content {
     position: absolute;
     top: 0px;
@@ -112,18 +126,19 @@ img.content {
     margin: 0px;
     padding: 0px;
     width: 660px;
-    //-webkit-filter: opacity(80%);
-    //filter: opacity(80%);
-    -webkit-mask-image:-webkit-gradient(linear, right top, left top, from(rgba(0,0,0,1)), to(rgba(0,0,0,0)))
+    -webkit-mask-image: -webkit-gradient(linear, right top, left top, from(rgba(0,0,0,1)), to(rgba(0,0,0,0.2)));
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 660px) {
     img.content {
         position: static;
+        -webkit-filter: opacity(80%);
+        filter: opacity(80%);
+        -webkit-mask-image: none;
     }
 }
 
-img.bottom {
+img.publications {
     position: absolute;
     top: 60px;
     width: 640px;

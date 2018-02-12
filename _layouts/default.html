@@ -37,9 +37,9 @@
                 <li class="header-nav-item{% if page.title == "About" %} active{% endif %}">
                     <a href="/">About</a>
                 </li>
-                <li class="header-nav-item{% if page.title == "Research" %} active{% endif %}">
+                <!-- <li class="header-nav-item{% if page.title == "Research" %} active{% endif %}">
                     <a href="research">Research</a>
-                </li>
+                </li> -->
                 <li class="header-nav-item{% if page.title == "Publications" %} active{% endif %}">
                     <a href="publications">Publications</a>
                 </li>
@@ -55,7 +55,7 @@
     <div id="main_content_wrap" class="outer">
         <section id="main_content" class="inner">
             {{ content }}
-            <img src="../images/{{ page.title }}.jpg" class="content {% if page.title == "Publications" %} bottom{% endif %}" alt="{{ page.title }}">
+            <img src="../images/{{ page.title }}.jpg" class="content {% if page.title == "Publications" %} publications{% endif %}" alt="{{ page.title }}">
         </section>
     </div>
 
