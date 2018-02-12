@@ -33,6 +33,12 @@ body {
     }
 }
 
+@media screen and (max-width: 320px) {
+    .inner {
+        padding: 10px 10px 10px 10px
+    }
+}
+
 /*
  * Header
  *
@@ -42,6 +48,7 @@ body {
 /* Header links */
 .header-title {
     padding: 0px;
+    margin: 0px;
     list-style: none;
 }
 
@@ -104,17 +111,13 @@ img.header {
 }
 
 div.page {
-    max-width: 320px;
+    max-width: 280px;
 }
 
-@media screen and (max-width: 660px) {
-    div.page {
-        max-width: none;
-    }
-}
-
-div.publications {
-    max-width: none;
+.page-title {
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
 }
 
 img.content {
@@ -126,16 +129,31 @@ img.content {
     margin: 0px;
     padding: 0px;
     width: 660px;
-    -webkit-mask-image: -webkit-gradient(linear, right top, left top, from(rgba(0,0,0,1)), to(rgba(0,0,0,0.2)));
+    -webkit-mask-image: -webkit-gradient(linear, 65% 0%, 45% 0%, from(rgba(0,0,0,0.85)), to(rgba(0,0,0,0)))
 }
 
 @media screen and (max-width: 660px) {
+    div.page {
+        max-width: none;
+    }
+
     img.content {
         position: static;
         -webkit-filter: opacity(80%);
         filter: opacity(80%);
         -webkit-mask-image: none;
     }
+}
+
+@media screen and (max-width: 660px) {
+    p {
+        margin: 5px 0 10px 0;
+    }
+}
+
+//Different style on Publications site
+div.publications {
+    max-width: none;
 }
 
 img.publications {
