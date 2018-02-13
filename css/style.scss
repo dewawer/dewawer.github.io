@@ -15,10 +15,14 @@
 
 html {
     //overflow-y: scroll;
+    height: 100%;
 }
 
 body {
     background: #f2f2f2;
+    height: 100%;
+    display: flex;
+    flex-flow: column;
 }
 
 .inner {
@@ -46,6 +50,10 @@ body {
  */
 
 /* Header links */
+#header_wrap {
+    flex: 0 1 auto;
+}
+
 .header-title {
     padding: 0px;
     margin: 0px;
@@ -108,6 +116,15 @@ img.header {
 #main_content_wrap {
     background: #f2f2f2;
     border: 0px;
+    flex: 1 1 auto;
+    display: flex;
+    flex-flow: column;
+    height: 100%;
+}
+
+#main_content {
+    flex: 1 1 auto;
+    overflow-y: auto;
 }
 
 div.page {
