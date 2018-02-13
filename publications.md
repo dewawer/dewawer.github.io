@@ -3,13 +3,13 @@ layout: page
 title: Publications
 ---
 
-## 2018
+### 2018
 
 * Veeramah KR, Rott A, Groß M, van Dorp L, López S, Kirsanow K, Sell C, Blöcher J, Wegmann
 D, Link V, **Hofmanová Z** et al. (2018) Population genomic analysis of elongated skulls reveals
-extensive female-biased immigration in Early Medieval Bavaria. PNAS in press.
+extensive female-biased immigration in Early Medieval Bavaria. Proc Natl Acad Sci USA _in press_.
 
-## 2017
+### 2017
 
 * Unterländer M, Palstra F, Lazaridis I, Pilipenko A, **Hofmanová Z** et al. (2017) 
 [Ancestry and demography and descendants of Iron Age nomads of the Eurasian Steppe](https://www.nature.com/articles/ncomms14615). 
@@ -23,7 +23,7 @@ Annals of human biology 44 (6), 537-545
 [Review of the population genetics of European prehistory](http://www.arup.cas.cz/wp-content/uploads/2010/11/Archeologické-rozhledy-3_2017.pdf#page=4).
 Archeologické Rozhledy 69 (3):331-360
 
-## 2016
+### 2016
 
 * Broushaki F, Thomas MG, Link V, Lopez S, van Dorp L, Kirsanow K, **Hofmanová Z** et al. (2016)
 [Early Neolithic genomes from the eastern Fertile Crescent](http://science.sciencemag.org/content/early/2016/07/13/science.aaf7943). Science 353(6298):499-503.
@@ -33,26 +33,26 @@ Archeologické Rozhledy 69 (3):331-360
 
 * **Hofmanová Z** (2016)
 [Palaeogenomic and Biostatistical Analysis of Ancient DNA Data from Mesolithic and Neolithic Skeletal Remains](https://publications.ub.uni-mainz.de/theses/volltexte/2017/100001355/pdf/100001355.pdf).
-Johannes Gutenberg-Universität Mainz
+Doctoral Thesis. Johannes Gutenberg-Universität Mainz
 
-## 2015
+### 2015
 
 * Fernandes V, Triska P, Pereira JB, Alshamali F, Rito T, Machado A, **Fajkošová Z** et al. (2015)
 [Genetic stratigraphy of key demographic events in Arabia](http://journals.plos.org/plosone/article?id=10.1371%2Fjournal.pone.0118625). PLoS ONE 10(3):e0118625.
 
-## 2013
+### 2013
 
 * Bollongino R, Nehlich O, Richards MP, Orschiedt J, Thomas MG, Sell C, **Fajkošová Z** et al.
 (2013) [2000 years of parallel societies in Stone Age Central Europe](http://science.sciencemag.org/content/342/6157/479). 
 Science 342(6157):479-81.
 
-## 2012
+### 2012
 
 * Petřík J, Prokeš L, Humpola D, **Fajkošová Z** et al. (2012) Pedogeochemical investigation of the
 Bell Beaker Culture graves from sites Hodonice and Těšetice-Kyjovice, South Moravia ed. Kolář, J.
 Trampota F. (Archaeopress, Oxford), pp. 45-64.
 
-## 2010
+### 2010
 
 * Kuča M, Trampota F, Kazdová E, Prokeš L, Petřík J, Kolář, J, **Fajkošová Z** Z. (2010) Kyjovice
 (okr. Znojmo) Sutny. Přehled výzkumů (AÚ AV ČR Brno) 51(1-2):315-318.
