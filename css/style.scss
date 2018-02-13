@@ -125,7 +125,6 @@ img.content {
     position: absolute;
     top: 0px;
     right: 0px;
-    z-index: -1;
     border: 0px;
     margin: 0px;
     padding: 0px;
@@ -175,7 +174,7 @@ img.content {
 
 @media screen and (max-width: 660px) {
     div.page {
-        max-width: none;
+        margin-right: 0px;
     }
 
     img.content {
