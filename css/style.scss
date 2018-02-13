@@ -23,8 +23,8 @@ body {
 
 .inner {
     padding: 30px 10px 20px 10px;
+    max-width: 940px;
     min-width: 0px;
-    z-index: 1;
 }
 
 @media screen and (max-width: 480px) {
@@ -111,7 +111,8 @@ img.header {
 }
 
 div.page {
-    max-width: 280px;
+    //max-width: 280px;
+    margin-right: 600px;
 }
 
 .page-title {
@@ -123,13 +124,53 @@ div.page {
 img.content {
     position: absolute;
     top: 0px;
-    left: 0px;
+    right: 0px;
     z-index: -1;
     border: 0px;
     margin: 0px;
     padding: 0px;
     width: 660px;
-    -webkit-mask-image: -webkit-gradient(linear, 65% 0%, 45% 0%, from(rgba(0,0,0,0.85)), to(rgba(0,0,0,0)))
+    -webkit-mask-image: -webkit-gradient(linear, 75% 0%, 0% 0%, from(rgba(0,0,0,0.85)), to(transparent))
+}
+
+@media screen and (max-width: 900px) {
+    div.page {
+        margin-right: 540px;
+    }
+
+    img.content {
+        -webkit-mask-image: -webkit-gradient(linear, 75% 0%, 11% 0%, from(rgba(0,0,0,0.85)), to(transparent))
+    }
+}
+
+@media screen and (max-width: 840px) {
+    div.page {
+        margin-right: 480px;
+    }
+
+    img.content {
+        -webkit-mask-image: -webkit-gradient(linear, 75% 0%, 22% 0%, from(rgba(0,0,0,0.85)), to(transparent))
+    }
+}
+
+@media screen and (max-width: 780px) {
+    div.page {
+        margin-right: 400px;
+    }
+
+    img.content {
+        -webkit-mask-image: -webkit-gradient(linear, 75% 0%, 33% 0%, from(rgba(0,0,0,0.85)), to(transparent))
+    }
+}
+
+@media screen and (max-width: 720px) {
+    div.page {
+        margin-right: 340px;
+    }
+
+    img.content {
+        -webkit-mask-image: -webkit-gradient(linear, 75% 0%, 44% 0%, from(rgba(0,0,0,0.85)), to(transparent))
+    }
 }
 
 @media screen and (max-width: 660px) {
@@ -139,8 +180,8 @@ img.content {
 
     img.content {
         position: static;
-        -webkit-filter: opacity(80%);
-        filter: opacity(80%);
+        -webkit-filter: opacity(85%);
+        filter: opacity(85%);
         -webkit-mask-image: none;
     }
 }
