@@ -113,6 +113,8 @@ img.header {
 div.page {
     //max-width: 280px;
     margin-right: 600px;
+    position: relative;
+    z-index: 1;
 }
 
 .page-title {
