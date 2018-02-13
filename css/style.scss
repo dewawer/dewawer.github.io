@@ -14,7 +14,7 @@
  */
 
 html {
-    overflow-y: scroll;
+    //overflow-y: scroll;
 }
 
 body {
@@ -193,7 +193,7 @@ img.content {
 
 //Different style on Publications site
 div.publications {
-    max-width: none;
+    margin-right: 0px;
 }
 
 img.publications {
