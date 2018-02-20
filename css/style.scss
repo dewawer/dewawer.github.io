@@ -252,7 +252,9 @@ img.publications {
         }
         img.content {
             position: static;
+            -webkit-filter: opacity(85%);
             filter: opacity(85%);
+            -webkit-mask-image: none;
         }
     }
 }
