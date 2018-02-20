@@ -226,7 +226,7 @@ img.publications {
     @media screen and (max-width: 900px) {
         div.page {
             margin-right: 0px;
-            width: 660px;
+            max-width: 660px;
         }
         img.content {
             position: static;
@@ -248,7 +248,7 @@ img.publications {
     @media screen and (max-width: 900px) {
         div.page {
             margin-right: 0px;
-            width: 660px;
+            max-width: 660px;
         }
         img.content {
             position: static;
