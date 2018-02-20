@@ -92,22 +92,6 @@ a.header-nav-item:focus {
 }
 
 /*
-img.header {
-    position: absolute;
-    bottom: -80px;
-    right: 0px;
-    z-index: -1;
-    clip: rect(0px,660px,360px,0px);
-    -webkit-filter: grayscale(100%);
-    filter: grayscale(50%);
-    -webkit-filter: opacity(50%);
-    filter: opacity(50%);
-    border: 0px;
-    margin: 0px;
-    padding: 0px;
-}*/
-
-/*
  * Content
  *
  * Page content.
@@ -222,4 +206,53 @@ img.publications {
     -webkit-filter: opacity(30%);
     filter: opacity(30%);
     -webkit-mask-image: none;
+}
+
+/*
+ * MS Edge
+ *
+ * Specific style for MS Edge.
+ * (Does not support -webkit-mask-image)
+ */
+@supports (-ms-ime-align: auto) {
+    div.page {
+        margin-right: 660px;
+    }
+
+    img.content {
+        filter: opacity(85%);
+    }
+
+    @media screen and (max-width: 900px) {
+        div.page {
+            margin-right: 0px;
+            width: 660px;
+        }
+        img.content {
+            position: static;
+        }
+    }
+}
+
+/*
+ * Mozilla firefox
+ *
+ * Specific style for Mozilla firefox.
+ * (Does not support -webkit-mask-image)
+ */
+@-moz-document url-prefix() {
+    div.page {
+        margin-right: 660px;
+    }
+
+    @media screen and (max-width: 900px) {
+        div.page {
+            margin-right: 0px;
+            width: 660px;
+        }
+        img.content {
+            position: static;
+            filter: opacity(85%);
+        }
+    }
 }
