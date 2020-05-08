@@ -14,8 +14,8 @@
     <meta charset='utf-8'>
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="{{ site.description | default: 'Personal website of Zuzana Hofmanová, Postdoctoral Researcher at University of Fribourg, Department of Biology.' }}">
-    <meta name="keywords" content="Zuzana Hofmanová, personal, ancient DNA, aDNA, population genetics, anthropology, archaeology">
+    <meta name="description" content="{{ page.description | default: 'Personal website of Zuzana Hofmanová, Postdoctoral Researcher at University of Fribourg, Department of Biology.' }}">
+    <meta name="keywords" content="Zuzana Hofmanová, personal, ancient DNA, aDNA, population genetics, comparative genomics, human history, anthropology, archaeology">
     <meta name="google-site-verification" content="8_uqng9__SdB0VBMKhpnM6xQlrcIymwzoWqXTGwcmjw" />
     <title>{{ page.title }} &middot; {{ site.title }}</title>
     <link href='/images/favicon.ico' rel='shortcut icon' type='image/x-icon'>
@@ -57,7 +57,7 @@
     <div id="main_content_wrap" class="outer">
         <section id="main_content" class="inner">
             {{ content }}
-            <img src="../images/{{ page.title }}.jpg" class="content {% if page.title == "Publications" %} publications{% endif %}" alt="{{ page.title }}">
+            <img src="../images/{{ page.title }}.jpg" class="content {% if page.title == 'Publications' %} publications{% endif %}" alt="{{ page.title }}">
         </section>
     </div>
 

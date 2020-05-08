@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Contact
+description: Contact details of Zuzana Hofmanová, Postdoctoral Researcher at University of Fribourg, Department of Biology.
 ---
 
 
