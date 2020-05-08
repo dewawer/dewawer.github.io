@@ -5,7 +5,7 @@ title: Publications
 
 <!-- ### 2020 -->
 
-* de Becdelièvre C, Jovanović J, **Hofmanová Z** et al. (2020) Direct insight into dietary adaptations and the individual experience of Neolithisation: comparing subsistence, provenance and ancestry of Early Neolithic humans from the Danube Gorges c. 6200–5500 cal BC. [Farmers at the Frontier](https://www.oxbowbooks.com/oxbow/farmers-at-the-frontier.html). A Pan-European Perspective on Neolithisation. Gron KJ, Sorensen L, Rowley-Conwy P eds. Oxbow books, Oxford
+* de Becdelièvre C, Jovanović J, **Hofmanová Z** et al. (2020) Direct insight into dietary adaptations and the individual experience of Neolithisation: comparing subsistence, provenance and ancestry of Early Neolithic humans from the Danube Gorges c. 6200–5500 cal BC. [Farmers at the Frontier. A Pan-European Perspective on Neolithisation](https://www.oxbowbooks.com/oxbow/farmers-at-the-frontier.html). Gron KJ, Sorensen L, Rowley-Conwy P eds. Oxbow books, Oxford
 
 * Nováčková J, Čížková M, Mokhtar MG, Duda P, Stenzl V, Tříska P, **Hofmanová Z** et al. (2020) [Subsistence strategy was the main factor driving population differentiation in the bidirectional corridor of the African Sahel](https://onlinelibrary.wiley.com/doi/abs/10.1002/ajpa.24001). American Journal of Physical Anthropology 171(3):496-508
 
