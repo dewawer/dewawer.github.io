@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Group Leader at Genetic History Group
+title: About
 description: Personal Web Page of Zuzana Hofmanová, Group Leader of Genetic History Group at Max Planck Institute for Evolutionary Anthropology.
 ---
 
