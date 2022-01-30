@@ -1,0 +1,260 @@
+---
+---
+
+/* Add Sass variables here */
+
+@import "jekyll-theme-slate";
+
+/* Add style here */
+
+/*
+ * Body
+ *
+ * Page body.
+ */
+
+html {
+    //overflow-y: scroll;
+    height: 100%;
+}
+
+body {
+    background: #f2f2f2;
+    height: 100%;
+    display: flex;
+    flex-flow: column;
+}
+
+.inner {
+    padding: 30px 10px 20px 10px;
+    max-width: 940px;
+    min-width: 0px;
+}
+
+@media screen and (max-width: 480px) {
+    .inner {
+        padding: 20px 10px 10px 10px
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .inner {
+        padding: 10px 10px 10px 10px
+    }
+}
+
+/*
+ * Header
+ *
+ * Flexible banner for housing site and page name and site pages links.
+ */
+
+/* Header links */
+#header_wrap {
+    flex: 0 1 auto;
+}
+
+.header-title {
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+}
+
+.header-nav {
+    padding: 0px;
+    list-style: none;
+}
+
+.header-nav-item {
+    display: inline;
+    margin-right: 10px;
+    font-size: 20px;
+}
+a.header-nav-item:hover,
+a.header-nav-item:focus {
+    text-decoration: underline;
+}
+.header-nav-item.active {
+    font-weight: bold;
+}
+
+@media screen and (max-width: 480px) {
+    .header-nav-item {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .header-nav-item {
+        display: block;
+        margin-right: 0px;
+    }
+}
+
+/*
+ * Content
+ *
+ * Page content.
+ */
+
+#main_content_wrap {
+    background: #f2f2f2;
+    border: 0px;
+    flex: 1 1 auto;
+    display: flex;
+    height: 100%;
+    min-height: 0;
+}
+
+#main_content {
+    flex: 1 1 auto;
+    overflow-y: auto;
+}
+
+div.page {
+    //max-width: 280px;
+    margin-right: 600px;
+    position: relative;
+    z-index: 1;
+}
+
+.page-title {
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+}
+
+img.content {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    border: 0px;
+    margin: 0px;
+    padding: 0px;
+    width: 660px;
+    -webkit-mask-image: -webkit-gradient(linear, 75% 0%, 0% 0%, from(rgba(0,0,0,0.85)), to(transparent))
+}
+
+@media screen and (max-width: 900px) {
+    div.page {
+        margin-right: 540px;
+    }
+
+    img.content {
+        -webkit-mask-image: -webkit-gradient(linear, 75% 0%, 11% 0%, from(rgba(0,0,0,0.85)), to(transparent))
+    }
+}
+
+@media screen and (max-width: 840px) {
+    div.page {
+        margin-right: 480px;
+    }
+
+    img.content {
+        -webkit-mask-image: -webkit-gradient(linear, 75% 0%, 22% 0%, from(rgba(0,0,0,0.85)), to(transparent))
+    }
+}
+
+@media screen and (max-width: 780px) {
+    div.page {
+        margin-right: 400px;
+    }
+
+    img.content {
+        -webkit-mask-image: -webkit-gradient(linear, 75% 0%, 33% 0%, from(rgba(0,0,0,0.85)), to(transparent))
+    }
+}
+
+@media screen and (max-width: 720px) {
+    div.page {
+        margin-right: 340px;
+    }
+
+    img.content {
+        -webkit-mask-image: -webkit-gradient(linear, 75% 0%, 44% 0%, from(rgba(0,0,0,0.85)), to(transparent))
+    }
+}
+
+@media screen and (max-width: 660px) {
+    div.page {
+        margin-right: 0px;
+    }
+
+    img.content {
+        position: static;
+        -webkit-filter: opacity(85%);
+        filter: opacity(85%);
+        -webkit-mask-image: none;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    p {
+        margin: 5px 0 10px 0;
+    }
+}
+
+//Different style on Publications site
+div.publications {
+    margin-right: 0px;
+}
+
+img.publications {
+    position: absolute;
+    top: 60px;
+    width: 640px;
+    -webkit-filter: opacity(30%);
+    filter: opacity(30%);
+    -webkit-mask-image: none;
+}
+
+/*
+ * MS Edge
+ *
+ * Specific style for MS Edge.
+ * (Does not support -webkit-mask-image)
+ */
+@supports (-ms-ime-align: auto) {
+    div.page {
+        margin-right: 660px;
+    }
+
+    img.content {
+        filter: opacity(85%);
+    }
+
+    @media screen and (max-width: 900px) {
+        div.page {
+            margin-right: 0px;
+            max-width: 660px;
+        }
+        img.content {
+            position: static;
+        }
+    }
+}
+
+/*
+ * Mozilla firefox
+ *
+ * Specific style for Mozilla firefox.
+ * (Does not support -webkit-mask-image)
+ */
+@-moz-document url-prefix() {
+    div.page {
+        margin-right: 660px;
+    }
+
+    @media screen and (max-width: 900px) {
+        div.page {
+            margin-right: 0px;
+            max-width: 660px;
+        }
+        img.content {
+            position: static;
+            -webkit-filter: opacity(85%);
+            filter: opacity(85%);
+            -webkit-mask-image: none;
+        }
+    }
+}
