@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Publications
+description: Publications of Zuzana Hofmanová, Group Leader of Genetic History Group at Max Planck Institute for Evolutionary Anthropology.
 ---
 
 * de Becdelièvre C, Jovanović J, **Hofmanová Z** et al. (2020) Direct insight into dietary adaptations and the individual experience of Neolithisation: comparing subsistence, provenance and ancestry of Early Neolithic humans from the Danube Gorges c. 6200–5500 cal BC. [Farmers at the Frontier. A Pan-European Perspective on Neolithisation](https://www.oxbowbooks.com/oxbow/farmers-at-the-frontier.html). Gron KJ, Sorensen L, Rowley-Conwy P eds. Oxbow books, Oxford

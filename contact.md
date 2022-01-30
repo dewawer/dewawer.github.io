@@ -1,15 +1,15 @@
 ---
 layout: page
 title: Contact
-description: Contact details of Zuzana Hofmanová, Postdoctoral Researcher at University of Fribourg, Department of Biology.
+description: Contact details of Zuzana Hofmanová, Group Leader of Genetic History Group at Max Planck Institute for Evolutionary Anthropology.
 ---
 
 
 **Twitter** [dewawer](https://twitter.com/dewawer)
 
 **Email**   <script><!--
-var name = "zuzana.hofmanova";
-var domain = "unifr.ch";
+var name = "zuzana_hofmanova";
+var domain = "eva.mpg.de";
 document.write('<a href=\"mailto:' + name + '@' + domain + '\">' + name + '@' + domain + '</a>');
 --></script>
 
@@ -17,4 +17,4 @@ document.write('<a href=\"mailto:' + name + '@' + domain + '\">' + name + '@' + 
 
 [**Research Gate**](https://www.researchgate.net/profile/Zuzana_Hofmanova)
 
-[**University of Fribourg**](http://www.unifr.ch/biology/research/wegmann/wegmanngroup)
+[**Max Planck Institute for Evolutionary Anthropology**](https://www.eva.mpg.de/archaeogenetics/staff/zuzana-hofmanova/)
